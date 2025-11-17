@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Lamkoti – Landing Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        /* NAVBAR */
+        header {
+            background: #111;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80')
+            no-repeat center center / cover;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            padding: 10px 22px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+
+        /* FEATURES */
+        section {
+            padding: 50px 20px;
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .feature-grid {
+            display: flex;
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .feature {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            flex: 1;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            border-top: 5px solid transparent;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            border-top: 5px solid #ff6600;
+        }
+
+        .feature img {
+            width: 60px;
+            margin-bottom: 12px;
+        }
+
+        /* CONTACT SECTION */
+        .contact-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-box p {
+            font-size: 17px;
+            margin: 8px 0;
+        }
+
+        .contact-highlight {
+            color: #ff6600;
+            font-weight: 600;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 40px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .feature-grid {
+                flex-direction: column;
+            }
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <h1>Gaurav Lamkoti</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Awesome Landing Page</h2>
+            <p>This landing page is made using simple HTML & CSS. Explore and create your own stylish web pages.</p>
+            <a href="#" class="btn">Explore More</a>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features">
+        <h2 style="text-align:center;">Features</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/1829/1829586.png">
+                <h3>Modern Design</h3>
+                <p>Clean and creative layout to make your webpage stand out.</p>
+            </div>
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/888/888853.png">
+                <h3>Fully Responsive</h3>
+                <p>Works smoothly on phones, tablets, and laptops.</p>
+            </div>
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+                <h3>Beginner Friendly</h3>
+                <p>Perfect for learners starting with HTML & CSS.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 style="text-align:center;">Contact Me</h2>
+
+        <div class="contact-box">
+            <p><span class="contact-highlight">Name:</span> Gaurav Lamkoti</p>
+            <p><span class="contact-highlight">Email:</span> lamkotigaurav10@gmail.com</p>
+            <p><span class="contact-highlight">Phone:</span> 9411172028</p>
+            <p>Feel free to reach out for projects or collaborations.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 | Designed by Gaurav Lamkoti | All Rights Reserved
+    </footer>
+
+</body>
+</html>
