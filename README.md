@@ -15,9 +15,7 @@ A fully responsive and modern portfolio website that includes:
 
 ✔️ About Me Section
 ✔️ Skills & Projects
-✔️ Resume Button
 ✔️ Contact Section
-✔️ Smooth UI & Animations
 
 📌 **Features**
 
@@ -34,7 +32,6 @@ A visually appealing landing page created using only **HTML + CSS**.
 
 ✔️ Hero Section with Background Image
 ✔️ Features Section
-✔️ Call-to-Action Button
 ✔️ Contact Section
 ✔️ Smooth typography and spacing
 
@@ -53,7 +50,6 @@ A functional calculator made using **HTML, CSS, JavaScript**.
 
 ✔️ Works with all basic operations
 ✔️ Clean UI
-✔️ Button hover effects
 ✔️ Error-free user input handling
 
 📌 **Features**
@@ -94,10 +90,3 @@ A functional calculator made using **HTML, CSS, JavaScript**.
 If you like this repository, don’t forget to ⭐ **Star the Repo** and follow for more projects! 😊🔥
 
 ---
-
-If you want, I can also
-✔️ format this README with icons & colors
-✔️ add project screenshots
-✔️ add individual README files for each project
-
-Just tell me!
