@@ -1,8 +1,3 @@
-Here is a clean, professional, GitHub-ready **README.md** for your CODSOFT Web Development Projects (Portfolio, Landing Page, Calculator).
-Language is simple + attractive + developer-friendly.
-
----
-
 # 🚀 CODSOFT Web Development Projects
 
 This repository contains my Web Development projects completed as part of the **CODSOFT Internship Program**.
