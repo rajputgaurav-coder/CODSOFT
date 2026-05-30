@@ -82,7 +82,6 @@ A functional calculator made using **HTML, CSS, JavaScript**.
 ## 📬 **Contact Me**
 
 **👤 Name:** Gaurav Lamkoti
-**📞 Phone:** 9411172028
 **📧 Email:** [lamkotigaurav10@gmail.com](mailto:lamkotigaurav10@gmail.com)
 
 ---
